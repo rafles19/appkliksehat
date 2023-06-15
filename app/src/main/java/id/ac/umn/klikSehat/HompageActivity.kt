@@ -143,16 +143,20 @@ class HompageActivity : AppCompatActivity() {
 
             queueNumberRef.addValueEventListener(object : ValueEventListener {
                 override fun onDataChange(dataSnapshot: DataSnapshot) {
-                    val queueNumber = dataSnapshot.getValue(Int::class.java)
+                    if(!dataSnapshot.hasChild("status"))
+                    {
+                        val queueNumber = dataSnapshot.value
 
-                    if (queueNumber != null) {
-                        txtQueueNumber.text = "Nomor Antrian Anda: $queueNumber"
+                        if (queueNumber != null) {
+                            txtQueueNumber.text = "Nomor Antrian Anda: $queueNumber"
 
-                        // Generate QR code for the queue number
-                        generateQRCode(queueNumber.toString())
-                    } else {
-                        txtQueueNumber.text = "Anda belum memiliki nomor antrian"
+                            // Generate QR code for the queue number
+                            generateQRCode(queueNumber.toString())
+                        } else {
+                            txtQueueNumber.text = "Anda belum memiliki nomor antrian"
+                        }
                     }
+                    else txtQueueNumber.text = "Antrian anda sudah diverifikasi"
                 }
 
                 override fun onCancelled(databaseError: DatabaseError) {
