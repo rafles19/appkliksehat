@@ -7,7 +7,7 @@
         android:id="@+id/imageLogo"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:src="@drawable/dice_1"
+        android:src="@drawable/logo"
         android:scaleType="centerInside"
         android:layout_centerHorizontal="true"/>
 
