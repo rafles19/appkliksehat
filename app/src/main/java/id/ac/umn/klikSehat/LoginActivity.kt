@@ -1,6 +1,6 @@
-package id.ac.umn.diceroller
+package id.ac.umn.klikSehat
 
-import id.ac.umn.diceroller.databinding.ActivityLoginBinding
+import id.ac.umn.klikSehat.databinding.ActivityLoginBinding
 
 
 import android.content.Intent

@@ -1,4 +1,4 @@
-package id.ac.umn.diceroller
+package id.ac.umn.klikSehat
 import android.Manifest
 import android.content.Intent
 import android.content.pm.PackageManager

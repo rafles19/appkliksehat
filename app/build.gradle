@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace 'id.ac.umn.diceroller'
+    namespace 'id.ac.umn.klikSehat'
     compileSdk 33
 
     packagingOptions {
