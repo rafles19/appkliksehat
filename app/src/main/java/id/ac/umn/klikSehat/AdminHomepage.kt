@@ -116,6 +116,9 @@ class AdminHomepage : AppCompatActivity() {
                         val userQueueNumber = userSnapshot.getValue(Int::class.java)
                         if (userQueueNumber != null && userQueueNumber.toString() == queueNumber) {
                             // Mengubah status kehadiran menjadi true di database
+
+                            userSnapshot.ref.child("status").setValue(true)
+                            userSnapshot.ref.child("queue").setValue(userQueueNumber.toString())
                             queueNumberValidated = true
                             break
                         }
