@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "521946563407",
+    "project_id": "loginklinik-38d48",
+    "storage_bucket": "loginklinik-38d48.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521946563407:android:23a95a0931a29bb28dbb3a",
+        "android_client_info": {
+          "package_name": "com.example.uas_qrcode2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "521946563407-u2koer2jh83btl3fvgv2t3cfa1nahmrb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1ZgN_qUqtUxNMy1g-g5cdX5Y6zXRWCpw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "521946563407-u2koer2jh83btl3fvgv2t3cfa1nahmrb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521946563407:android:8e81c7aecc1ffffd8dbb3a",
+        "android_client_info": {
+          "package_name": "id.ac.umn.diceroller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "521946563407-u2koer2jh83btl3fvgv2t3cfa1nahmrb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1ZgN_qUqtUxNMy1g-g5cdX5Y6zXRWCpw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "521946563407-u2koer2jh83btl3fvgv2t3cfa1nahmrb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
