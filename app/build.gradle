@@ -13,7 +13,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "id.ac.umn.diceroller"
+        applicationId "id.ac.umn.klikSehat"
         minSdk 24
         targetSdk 32
         versionCode 1
